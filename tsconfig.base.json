@@ -14,7 +14,10 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@bitful/ui": ["libs/ui/src/index.ts"],
+      "@bitful/data": ["libs/data/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
